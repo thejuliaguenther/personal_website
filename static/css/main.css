@@ -673,3 +673,13 @@ ul.nostyle i {
   box-shadow: none;
   -webkit-box-shadow: none;
 }
+
+#fig-1, #fig-2, #fig-3{
+    height:200px;
+    width:303.325px;
+}
+
+#fig-4{
+    height:200px;
+    width:303.325px;
+}
