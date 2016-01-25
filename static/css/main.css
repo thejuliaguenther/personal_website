@@ -674,19 +674,25 @@ ul.nostyle i {
   -webkit-box-shadow: none;
 }
 
-#fig-1, #fig-2, #fig-3{
-    height:200px;
-    width:303.325px;
+#fig-1{
+  height:200px;
+  width:300px;
 }
 
-#fig-4{
-    height:200px;
-    width:303.325px;
+#fig-2, #fig-3, #fig-4{
+  height:200px;
+  width:300px;
+  margin:15px;
 }
+
 
 #headshot{
   height:300px;
   width:300px;
   margin-left:20px;
+}
+
+.tech-stack{
+  font-weight: bold;
 }
 
