@@ -153,6 +153,11 @@ ul.nostyle i {
 /*************************
 *******Header******
 **************************/
+.navbar-nav>li>a{
+  font-weight: 300;
+  font-family: 'Roboto', sans-serif
+}
+
 .navbar.navbar-default {
   border: 0;
   border-radius: 0;
@@ -164,16 +169,11 @@ ul.nostyle i {
     background-color: #25292F;
     border-color: #25292F;
 }
-.navbar.navbar-default .navbar-toggle {
-  /*margin-top: 32px;*/
-}
 
 #top-header {
   padding: 0px 0;
-  height: 35px;
+  height: 50px;
 }
-
-
 
 @media only screen and (min-width: 768px) {
   #main-menu.navbar-default {
@@ -193,7 +193,7 @@ ul.nostyle i {
   background-size: cover;
 }
 #main-slider .slider-inner {
-  position: absolute;
+  /*position: absolute;*/
   top: 0;
   left: 0;
   width: 100%;
@@ -206,6 +206,11 @@ ul.nostyle i {
   line-height: 1;
   text-transform: uppercase;
   color: #fff;
+}
+
+#main-slider .slider-inner p{
+  font-size: 20px;
+  font-weight: 300;
 }
 #main-slider .slider-inner h2 > span {
   color: #13C4B7;
@@ -241,6 +246,10 @@ ul.nostyle i {
 #main-slider .owl-next {
   right: -35px;
   text-indent: -14px;
+}
+
+.item{
+  height:100%;
 }
 #bar {
   width: 0%;
@@ -380,7 +389,6 @@ ul.nostyle i {
 #github, #linkedin{
   margin:15px;
 }
-
 
 
 #fig-1{
