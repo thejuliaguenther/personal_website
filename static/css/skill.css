@@ -1,16 +1,11 @@
-body {
-  font-family: 'Open Sans', sans-serif;
-  font-size: 12px;
-  font-weight: 400;
-  background-color: #fff;
-  margin-top: 10px;
-}
+@import url(http://fonts.googleapis.com/css?family=Roboto:400,300,100,700,100italic,300italic,400italic,700italic);
+
 #skillmap .skills-wrapper {
   margin-top: 10px;
   margin-right: 50px;
   overflow: auto;
   width: 500px;
-  height: 700px;
+  height: 600px;
 }
 #skillmap .skills-sunburst {
   float: left;
@@ -19,7 +14,7 @@ body {
   margin-left: -80px;
 }
 #skillmap .skills-sunburst svg {
-  font: 10px 'Source Sans Pro', sans-serif;
+  font: 10px 'Roboto', sans-serif;
   color: #25292F;
   font-weight: 900;
   cursor: pointer;
