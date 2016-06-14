@@ -10,7 +10,7 @@ app.secret_key = os.environ.get("FLASK_SECRET_KEY", "ABCDEF")
 app.jinja_env.undefined = StrictUndefined
 
 @app.route('/', methods=["GET"])
-@app.route('/support-genius')
+# @app.route('/support-genius')
 @app.route('/ratings')
 def index(**kwargs):
     return make_response(open('templates/index.html').read())
