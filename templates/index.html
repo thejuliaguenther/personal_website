@@ -233,10 +233,12 @@
 </section><!--/#portfolio-->
 <br>
 
-<div ng-cloak="" class="tabsdemoDynamicHeight" ng-app="projectsApp">
+<div ng-cloak="" class="tabsdemoDynamicHeight" ng-app="projectsApp" ng-view>
+
   <md-content>
     <md-tabs md-dynamic-height="" md-border-bottom="">
-      <md-tab label="one">
+    
+      <!-- <md-tab label="one">
         <md-content class="md-padding">
           <h1 class="md-display-2">Tab One</h1>
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla venenatis ante augue. Phasellus volutpat neque ac dui mattis vulputate. Etiam consequat aliquam cursus. In sodales pretium ultrices. Maecenas lectus est, sollicitudin consectetur felis nec, feugiat ultricies mi.</p>
@@ -255,7 +257,7 @@
           <h1 class="md-display-2">Tab Three</h1>
           <p>Integer turpis erat, porttitor vitae mi faucibus, laoreet interdum tellus. Curabitur posuere molestie dictum. Morbi eget congue risus, quis rhoncus quam. Suspendisse vitae hendrerit erat, at posuere mi. Cras eu fermentum nunc. Sed id ante eu orci commodo volutpat non ac est. Praesent ligula diam, congue eu enim scelerisque, finibus commodo lectus.</p>
         </md-content>
-      </md-tab>
+      </md-tab> -->
     </md-tabs>
   </md-content>
 </div>
@@ -291,6 +293,7 @@
   <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.5.3/angular-animate.min.js"></script>
   <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.5.3/angular-aria.min.js"></script>
   <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.5.3/angular-messages.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.3/angular-route.js"></script>
   <!-- Angular Material Library -->
   <script src="http://ajax.googleapis.com/ajax/libs/angular_material/1.1.0-rc2/angular-material.min.js"></script>
   <script src="http://ngmaterial.assets.s3.amazonaws.com/svg-assets-cache.js"></script>
@@ -310,7 +313,9 @@
               "Sqlite": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 10, 30, 20],
               "SQLAlchemy": [0, 0, 10, 30, 50, 50, 60, 80, 90, 60, 50, 30, 30, 30, 40],
               "SQL":[0, 0, 10, 30, 50, 50, 60, 80, 90, 60, 50, 30, 30, 30, 40],
-              "MongoDB": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 10, 30]
+              "MongoDB": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 10, 30],
+              "Redis": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 10, 30]
+
             },
             "Frameworks": {
               "Flask": [0, 10, 10, 30, 40, 40, 40, 60, 70, 70, 80, 80, 80, 80, 80],
