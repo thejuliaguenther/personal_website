@@ -234,64 +234,19 @@
 <br>
 
 <div class="row">
-<div class="tabbable-panel">
+<div class="tabbable-panel" ng-app="projectsApp">
                 <div class="tabbable-line tabs-below">
                     <div class="tab-content">
-                        <div class="tab-pane active" id="tab_below_1">
-                            <p>
-                                I'm in Tab 1.
-                            </p>
-                            <p>
-                                Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat.
-                            </p>
-                            <p>
-                                Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat dolor in hendrerit in vulputate velit esse molestie consequat.
-                            </p>
-                            <p>
-                                <a class="btn btn-warning" href="http://j.mp/metronictheme" target="_blank">
-                                    Learn more...
-                                </a>
-                            </p>
-                        </div>
-                        <div class="tab-pane" id="tab_below_2">
-                            <p>
-                                Howdy, I'm in Tab 2.
-                            </p>
-                            <p>
-                                Duis autem vel eum iriure dolor in hendrerit in vulputate. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat.
-                            </p>
-                            <p>
-                                <a class="btn btn-danger" href="http://j.mp/metronictheme" target="_blank">
-                                    Learn more...
-                                </a>
-                            </p>
-                        </div>
-                        <div class="tab-pane" id="tab_below_3">
-                            <p>
-                                Howdy, I'm in Tab 3.
-                            </p>
-                            <p>
-                                Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate.
-                            </p>
-                            <p>
-                                <a class="btn btn-info" href="http://j.mp/metronictheme" target="_blank">
-                                    Learn more...
-                                </a>
-                            </p>
-                        </div>
-                    </div>
+                     <div ng-view></div>
+   
                     <ul class="nav nav-tabs">
                         <li class="active">
-                            <a href="#tab_below_1" data-toggle="tab">
-                            Tab 1 </a>
+                            <a href="#/" data-target="#" data-toggle="tab">
+                            SupportGenius</a>
                         </li>
                         <li class="">
-                            <a href="#tab_below_2" data-toggle="tab">
-                            Tab 2 </a>
-                        </li>
-                        <li>
-                            <a href="#tab_below_3" data-toggle="tab">
-                            Tab 3 </a>
+                            <a href="#/ratings" data-target="#ratings" data-toggle="tab">
+                            Ratings Analytics </a>
                         </li>
                     </ul>
                 </div>
