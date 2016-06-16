@@ -16,5 +16,14 @@ projectsApp.config(['$routeProvider', function ($routeProvider) {
     });
         
         
-}]);
+}])
+.directive('resize', function () {
+    return {
+      scope: {},
+      link: function(scope, elem, attrs) {
+            elem.css('height', '300px');
+            elem.css('width', '550px');
+      }
+    };
+  });
 
