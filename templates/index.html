@@ -27,6 +27,9 @@
     <link rel="apple-touch-icon-precomposed" sizes="114x114" href="images/ico/apple-touch-icon-114-precomposed.png">
     <link rel="apple-touch-icon-precomposed" sizes="72x72" href="images/ico/apple-touch-icon-72-precomposed.png">
     <link rel="apple-touch-icon-precomposed" href="images/ico/apple-touch-icon-57-precomposed.png">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.2/angular.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.2/angular-route.js"></script>
   
 </head><!--/head-->
 
@@ -118,7 +121,7 @@
             <div class="row">
                 <div class="col-sm-6 wow fadeInRight">
                     <h3 class="column-title">About Me</h3>
-                    <p>Ever since I took my first computer science class in college, I have been passionate about technology's capacity to solve tough problems. Prior to attending <a href="https://hackbrightacademy.com/" target="_blank" style="color: #13C4B7;">Hackbright Academy</a> (Fall 2015), I sought to combine my interest in creative problem solving and analytical skills in positions in marketing, customer success, and product strategy. As a software engineer, I hope to work at the cutting edge of innovative technologies and solve large problems at scale. </p>
+                    <p>Ever since I took my first computer science class in college, I have been passionate about technology's capacity to solve tough problems. Prior to attending <a href="https://hackbrightacademy.com/" target="_blank" class="linkStyle">Hackbright Academy</a>, I sought to combine my interest in creative problem solving and analytical skills in positions in marketing, customer success, and product strategy. As a software engineer, I hope to work at the cutting edge of innovative technologies and solve large problems at scale. </p>
 <br>
 <p> As a former Division I varsity athlete, I believe in maximizing free time for self-improvement. Thus, when I'm not coding, I enjoy training for and racing half and full marathons, reading non-fiction, attending intellectualy stimulating talks, and doing yoga.<p>
 
@@ -199,18 +202,18 @@
 
 
 <div class="row">
-<div class="tabbable-panel" ng-app="projectsApp">
+<div class="tabbable-panel">
                 <div class="tabbable-line tabs-below">
-                    <div class="tab-content">
+                    <div class="tab-content" ng-app="projectsApp">
                      <div ng-view></div>
    
                     <ul class="nav nav-tabs">
                         <li class="active">
-                            <a ng-href="#/" data-target="#" data-toggle="tab">
+                            <a ng-href="#/" data-target="#" data-toggle="tab" class="linkStyle">
                             SupportGenius</a>
                         </li>
                         <li class="">
-                            <a ng-href="#/ratings" data-target="#ratings" data-toggle="tab" ng-style="myStyle={color:'#333333'}">
+                            <a ng-href="#/ratings" data-target="#ratings" data-toggle="tab" class="linkStyle">
                             Ratings Analytics </a>
                         </li>
                     </ul>
@@ -229,8 +232,8 @@
                 <h2 class="wow fadeInUp" data-wow-duration="300ms" data-wow-delay="0ms">CONTACT <span>JULIA GUENTHER</span></h2>
                 <p class="wow fadeInUp" data-wow-duration="300ms" data-wow-delay="100ms">juliag1@alumni.stanford.edu</p>
                 <div class="row">
-                    <a href="https://github.com/thejuliaguenther" target="_blank"><i id="github" class="fa fa-github fa-3x" style="color: #13C4B7;"></i></a>
-                    <a href="https://www.linkedin.com/in/juliaguenther" target="_blank" style="color: #13C4B7;"><i id="linkedin" class="fa fa-linkedin fa-3x"></i></a>
+                    <a href="https://github.com/thejuliaguenther" target="_blank"><i id="github" class="fa fa-github fa-3x linkStyle"></i></a>
+                    <a href="https://www.linkedin.com/in/juliaguenther" target="_blank" class="linkStyle"><i id="linkedin" class="fa fa-linkedin fa-3x"></i></a>
                 </div>
             </div>
         </div>
@@ -249,18 +252,7 @@
     <script src="/static/d3/d3.js"></script>
     <script src="/static/d3/d3.min.js"></script>
 
-    <!-- Angular Material requires Angular.js Libraries -->
-  <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.5.3/angular.min.js"></script>
-  <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.5.3/angular-animate.min.js"></script>
-  <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.5.3/angular-aria.min.js"></script>
-  <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.5.3/angular-messages.min.js"></script>
-  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.3/angular-route.js"></script>
-  <script src="//cdnjs.cloudflare.com/ajax/libs/angular-ui-router/0.2.8/angular-ui-router.min.js"></script>
-  <!-- Angular Material Library -->
-  <script src="http://ajax.googleapis.com/ajax/libs/angular_material/1.1.0-rc2/angular-material.min.js"></script>
-  <script src="http://ngmaterial.assets.s3.amazonaws.com/svg-assets-cache.js"></script>-->
-
-  <script src="/static/js/projectsApp.js"></script>
+    <script src="/static/js/projectsApp.js"></script>
 
     
     <script type="text/javascript">
